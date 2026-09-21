@@ -82,8 +82,8 @@ Toggle the input switch and observe output `Z`.
 
 | X | Z |
 |---:|---:|
-| 0 | ___ |
-| 1 | ___ |
+| 0 | 1 |
+| 1 | 0 |
 
 ### Reflection
 
