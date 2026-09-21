@@ -89,7 +89,7 @@ Toggle the input switch and observe output `Z`.
 
 **From your truth table, why do you think this gate is called an inverter?**
 
-> _Write your answer here._
+> _I feel like its called an inverter since it does the opposite of the other.._
 
 ---
 
@@ -112,16 +112,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called an AND gate?**
 
-> _Write your answer here._
+> _Since if one is true the others are true._
 
 ---
 
@@ -144,16 +144,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called a NAND gate?**
 
-> _Write your answer here._
+> _Because it does the opposite of the AND gate ._
 
 ---
 
@@ -178,16 +178,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called an OR gate?**
 
-> _Write your answer here._
+> _I think its called "Or" gate since you choose if you either want to turn the X or Y LED on._
 
 ---
 
@@ -210,16 +210,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called a NOR gate?**
 
-> _Write your answer here._
+> _I would think this is called a NOR gate because of the fact that if you try to send power to one LED the others dont get any power._
 
 ---
 
@@ -242,10 +242,10 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
 
 ### Reflection
 
@@ -359,42 +359,42 @@ In this test circuit:
 
 | Switch Action | T State | Q Output | NOT_Q Output | Observation |
 |---|---:|---:|---:|---|
-| Starting condition | 0 | ___ | 0 | ___ |
-| Move switch from GND to VCC | 1 | ___ | ___ | ___ |
-| Move switch from VCC to GND | 0 | ___ | ___ | ___ |
-| Toggle switch one more time | ___ | ___ | ___ | ___ |
+| Starting condition | 0 | 1 | 0 | ___ |
+| Move switch from GND to VCC | 1 | 1 | 0 | ___ |
+| Move switch from VCC to GND | 0 | 0 | 1 | ___ |
+| Toggle switch one more time | 1 | 1 | 0 | ___ |
 
 ### Analysis Questions
 
 **What happens to output `Q` when switch `T` moves from GND to VCC?**
 
-> _Write your answer here._
+> Q's LED turned on._
 
 **What happens to output `Q` when switch `T` moves from VCC to GND?**
 
-> _Write your answer here._
+> _Q's LED turns off._
 
 **What does your observation tell you about when `Q` changes relative to changes at the `CLK` input?**
 
-> _Write your answer here._
+> _What it tells me is that Q only works with VCC._
 
 **What is the relationship between `Q` and `NOT_Q`?**
 
-> _Write your answer here._
+> _When one's LED turns on the other is off._
 
 **What is the relationship between data input `D` and output `Q`?**
 
-> _Write your answer here._
+> _Data input will only be on when output Q is off and vice versa._
 
 **Based on your observations, explain the relationship among `D`, `Q`, `NOT_Q`, and `CLK`. What does a flip-flop do?**
 
-> _Write your answer here._
+> _When you flip the switch the LED's that are already on will still be on besides 1 and it works like that in repeat.._
 
 ### Reflection
 
 **In this investigation, you changed the flip-flop state by manually toggling a switch. How could a flip-flop change states without direct human input?**
 
-> _Write your answer here._
+> _If you can program it to change automatically it can switch it without a human technically toggling a switch.._
 
 ---
 
@@ -436,15 +436,15 @@ Observe the output behavior of each circuit.
 
 **What happens to the clock signal when capacitor `C2` is halved?**
 
-> _Write your answer here._
+> _The clock signal is still on.._
 
 **What happens to the clock signal when capacitor `C2` is doubled?**
 
-> _Write your answer here._
+> _The click signal still remains on._
 
 **Based on your observations, how does capacitor value affect the timing of a 555 timer oscillator?**
 
-> _Write your answer here._
+> _Based on the observations I got nothing changes.._
 
 ---
 
@@ -467,7 +467,8 @@ Your goal is to make the flip-flop change state automatically at a rate you sele
 
 > **Image Placeholder:** Insert a screenshot of your completed 555-timer-and-flip-flop simulation.
 
-<!-- IMAGE: Completed 555 timer connected to flip-flop clock input -->
+<img width="479" height="672" alt="image" src="https://github.com/user-attachments/assets/a5aeaf8d-99b8-41f1-a501-6a2a370aaa15" />
+
 
 ## Final Reflection
 
